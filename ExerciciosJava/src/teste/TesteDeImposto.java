@@ -1,0 +1,38 @@
+package teste;
+import bo.CalculadorDeImpostos;
+import bo.ICMS;
+import bo.ISS;
+import bo.Imposto;
+import bo.Orcamento;
+
+//atalho
+// digitar main + control + space - cria o método main
+
+
+public class TesteDeImposto {
+
+
+	public static void main(String[] args) {
+		Imposto iss = new ISS();
+		Imposto icms = new ICMS();
+		
+		Orcamento orcamento = new Orcamento(500.0);
+		
+		CalculadorDeImpostos calculador = new CalculadorDeImpostos();
+		
+		
+				
+		
+		calculador.realizaCalculo (orcamento, iss);
+		calculador.realizaCalculo (orcamento, icms);
+		
+		
+		
+		
+		
+	}
+
+	
+	
+
+}
