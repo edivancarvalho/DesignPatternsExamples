@@ -1,4 +1,4 @@
-package bo;
+package strategy;
 
 public interface Imposto {
 	

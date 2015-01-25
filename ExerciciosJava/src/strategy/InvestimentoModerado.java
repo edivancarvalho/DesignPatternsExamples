@@ -1,4 +1,4 @@
-package bo;
+package strategy;
 
 import java.math.BigDecimal;
 

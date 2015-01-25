@@ -1,9 +1,9 @@
-package teste;
+package testestrategy;
 
-import bo.Investimento;
-import bo.InvestimentoConservador;
-import bo.InvestimentoModerado;
-import bo.TipoInvestimento;
+import strategy.Investimento;
+import strategy.InvestimentoConservador;
+import strategy.InvestimentoModerado;
+import strategy.TipoInvestimento;
 
 public class TesteDeInvestimento {
 	

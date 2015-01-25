@@ -1,9 +1,9 @@
-package teste;
-import bo.CalculadorDeImpostos;
-import bo.ICMS;
-import bo.ISS;
-import bo.Imposto;
-import bo.Orcamento;
+package testestrategy;
+import strategy.CalculadorDeImpostos;
+import strategy.ICMS;
+import strategy.ISS;
+import strategy.Imposto;
+import strategy.Orcamento;
 
 //atalho
 // digitar main + control + space - cria o método main
