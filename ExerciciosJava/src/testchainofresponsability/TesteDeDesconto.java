@@ -10,11 +10,19 @@ public class TesteDeDesconto {
 		 CalculadorDeDesconto descontos = new CalculadorDeDesconto();
 		 
 		 
-		 Orcamento orcamento = new Orcamento(500.00);
+		 Orcamento orcamento = new Orcamento(400.00);
 		 
 		 orcamento.adicionaItem(new Item("CANETA",250.0) );
 		 
 		 orcamento.adicionaItem(new Item("LAPIS",250.0) );
+
+		 orcamento.adicionaItem(new Item("Broca",250.0) );		 
+
+		 orcamento.adicionaItem(new Item("Talhadeira",250.0) );
+		 
+		 orcamento.adicionaItem(new Item("Britadeira",250.0) );		 
+		 
+		 //orcamento.adicionaItem(new Item("Papel",350.0) );		 
 		 
 		 double descontoFinal = descontos.calcula(orcamento);
 		 
