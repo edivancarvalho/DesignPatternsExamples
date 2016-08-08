@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import chainofesponsibility.Item;
+import chainofesponsibility.exercicio1.ItemExercicio1;
+
 
 
 // Ctrl N Class
@@ -12,15 +13,15 @@ import chainofesponsibility.Item;
 // Ctrl + 3 em qualquer parte > digitar GGAS - Generate Getters and Setters
 
 
-public class Orcamento {
+public class OrcamentoStrategy {
 
 	private final double valor;
-	private final List<Item> itens;
+	private final List<ItemExercicio1> itens;
 	
 
-	public Orcamento (double valor) {
+	public OrcamentoStrategy (double valor) {
 		this.valor = valor;
-		itens = new ArrayList<Item>();
+		itens = new ArrayList<ItemExercicio1>();
 		
 	}
 
@@ -29,11 +30,11 @@ public class Orcamento {
 	}
 	
 	
-	public void adicionaItem(Item item) {
+	public void adicionaItem(ItemExercicio1 item) {
 		itens.add(item);
 	}
 	
-	public List<Item> getItens() {
+	public List<ItemExercicio1> getItens() {
 		return Collections.unmodifiableList(itens);
 
 	}

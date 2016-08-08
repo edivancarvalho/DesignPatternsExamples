@@ -3,7 +3,7 @@ package strategy;
 public class CalculadorDeImpostos {
 
 	
-	public void realizaCalculo (Orcamento orcamento, Imposto impostoQualquer) {
+	public void realizaCalculo (OrcamentoStrategy orcamento, Imposto impostoQualquer) {
 		// implementing Strategy
 		
 		double calculo = impostoQualquer.calcula(orcamento);
@@ -30,7 +30,7 @@ public class CalculadorDeImpostos {
 
 	}
 	*/ 
-	 /* problema, quanto mais impostos houver, maior este método ficará e difícil de dar manutenção*/
+	 /* problema, quanto mais impostos houver, maior este mï¿½todo ficarï¿½ e difï¿½cil de dar manutenï¿½ï¿½o*/
 	 /* quando classe fazem algo em comum, pode-se definir um contrato
 
 	
@@ -50,7 +50,7 @@ public class CalculadorDeImpostos {
 			System.out.println(iss);
 		}
 
-	}  /* problema, quanto mais impostos houver, maior este método ficará e difícil de dar manutenção*/ 	
+	}  /* problema, quanto mais impostos houver, maior este mï¿½todo ficarï¿½ e difï¿½cil de dar manutenï¿½ï¿½o*/ 	
 	
 	
 	

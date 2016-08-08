@@ -2,6 +2,6 @@ package strategy;
 
 public interface Imposto {
 	
-	 double calcula  (Orcamento orcamento);
+	 double calcula  (OrcamentoStrategy orcamento);
 
 }
