@@ -1,0 +1,89 @@
+https://www.youtube.com/watch?v=vNHpsC5ng_E&list=PLF206E906175C7E07
+
+DESIGN PATTERN (PADRAO DE PROJETO)
+
+Um padrão de projeto define :
+
+seu nome,
+o problema,
+quando aplicar esta solução e
+suas consequências.
+
+
+Chain of Responsibility
+Command - 
+  http://www.devmedia.com.br/padrao-de-projeto-command-em-java/26456
+  
+  A implementação de filas, criação de registros de ações ou o suporte a operações de “refazer” também são suportados pelo padrão Command.
+  
+Iterator
+Mediator
+Memento
+Singleton
+Factory
+Polimorfismo
+Generics
+Annotation @interface
+Observer
+Prototype
+Reflection
+Decorator
+Adapter
+Facade
+Bridge
+Template Method
+Iterator
+Composite
+Flyweight
+State
+Proxy 
+Interpreter
+Visitor
+
+
+Consumer
+
+
+
+Ferramentas
+Log4J
+export to excel
+
+
+
+Elements of Reusable Object-Oriented Software
+ que continha um catálogo com 23 padrões de projetos (Design Patterns) orientados a software
+ 
+ 
+ https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software#Padr.C3.B5es_GoF_.28.27Gang_of_Four.27.29.3B
+ 
+ 
+ Padrões de criação[editar | editar código-fonte]
+Abstract Factory
+Builder
+Factory Method
+Prototype
+Singleton
+Padrões estruturais[editar | editar código-fonte]
+Adapter
+Bridge
+Composite
+Decorator
+Façade (ou Facade)
+Flyweight
+Proxy
+Padrões comportamentais[editar | editar código-fonte]
+Chain of Responsibility
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template Method
+Visitor
+ 
+ 
+ 
