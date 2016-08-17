@@ -2,6 +2,8 @@ https://www.youtube.com/watch?v=vNHpsC5ng_E&list=PLF206E906175C7E07
 
 DESIGN PATTERN (PADRAO DE PROJETO)
 
+Erich Gamma - 23 padrões de projetos - http://www.macoratti.net/vb_pd1.htm
+
 Um padrão de projeto define :
 
 seu nome,
@@ -13,7 +15,6 @@ suas consequências.
 Chain of Responsibility
 Command - 
   http://www.devmedia.com.br/padrao-de-projeto-command-em-java/26456
-  
   A implementação de filas, criação de registros de ações ou o suporte a operações de “refazer” também são suportados pelo padrão Command.
   
 Iterator
