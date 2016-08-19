@@ -1,11 +1,19 @@
+http://www.devmedia.com.br/entendendo-os-conceitos-dos-padroes-de-projetos-em-java/29083
+
+
 1- Padrões de Criação (Creational)
-     Abstract Factory - Um método Factory é um método que fabrica objetos de um tipo particular; Um objeto Factory é um objeto que encapsula                                métodos Factory.
+     Abstract Factory - Um método Factory é um método que fabrica objetos de um tipo particular; 
+     Um objeto Factory é um objeto que encapsula métodos Factory.
      Builder - Separa a construção de um objeto complexo da sua representação, de forma que o mesmo processo de construção possa criar diferentes representações.
      Factory Method - É uma interface para instanciação de objetos que mantém isoladas as classes concretas usadas da requisição da criação destes objetos.
      Prototype - O padrão Prototype fornece uma outra maneira de se construir objetos de tipos arbitrários.
+			http://www.journaldev.com/1440/prototype-design-pattern-in-java
+            http://www.devmedia.com.br/padroes-de-projeto-em-net-prototype/4597
      Singleton. - Garante que para uma classe específica só possa existir uma única instância, a qual é acessível de forma global e uniforme.
+            http://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392
 2- Padrões de Estrutura (Structural)
      Adapter - Permite que dois objetos se comuniquem mesmo que tenham interfaces incompatíveis.
+            http://www.devmedia.com.br/padrao-de-projeto-adapter-em-java/26467
      Bridge - Desacopla a interface da implementação ; Ocultação de detalhes de implementação dos clientes.
      Composite - lida com uma estrutura de elementos agrupada hierarquicamente (não como meras coleções).
      Decorator - Atribui responsabilidade adicionais a um objeto dinamicamente. O Decorator fornece uma alternativa flexível a subclasses para a extensão da funcionalidade.
@@ -15,6 +23,7 @@
 3- Padrões de Comportamento (Behavioral)
     Chain of Responsability - Evita dependência do remetente(cliente) de uma requisição ao seu destinatário , dando a oportunidade de mais de objeto tratar a requisição.
     Command - Associa uma ação a diferentes objetos através de uma interface conhecida.
+        http://www.devmedia.com.br/padrao-de-projeto-command-em-java/26456
     Interpreter - Usado para ajudar uma aplicação a entender uma declaração de linguagem natural e executar a funcionalidade da declaração.
     Iterator - Provê uma forma de percorrermos os elementos de uma coleção sem violar o seu encapsulamento.
     Mediator - Cria um objeto que age como um  mediador controlando a interação entre um conjunto de objetos.

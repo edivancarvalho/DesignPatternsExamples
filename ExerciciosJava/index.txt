@@ -94,5 +94,15 @@ Teclas Atalho
 // Ctrl + 3 em qualquer parte > digitar GGAS - Generate Getters and Setters
 
  
+ Modifier    | Class | Package | Subclass | World
+————————————+———————+—————————+——————————+———————
+public      |   ✔   |    ✔    |    ✔     |   ✔
+————————————+———————+—————————+——————————+———————
+protected   |   ✔   |    ✔    |    ✔     |   ✘
+————————————+———————+—————————+——————————+———————
+no modifier |   ✔   |    ✔    |    ✘     |   ✘
+————————————+———————+—————————+——————————+———————
+private     |   ✔   |    ✘    |    ✘     |   ✘
+ 
  
  
