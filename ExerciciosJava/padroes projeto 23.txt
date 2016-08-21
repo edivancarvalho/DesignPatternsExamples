@@ -1,5 +1,9 @@
 http://www.devmedia.com.br/entendendo-os-conceitos-dos-padroes-de-projetos-em-java/29083
 
+brizeno todos os padroes de projeto
+
+https://github.com/MarcosX/Padr-es-de-Projeto/tree/master/src/br/padroes
+
 
 1- Padrões de Criação (Creational)
      Abstract Factory - Um método Factory é um método que fabrica objetos de um tipo particular; 
@@ -15,7 +19,8 @@ http://www.devmedia.com.br/entendendo-os-conceitos-dos-padroes-de-projetos-em-ja
      Adapter - Permite que dois objetos se comuniquem mesmo que tenham interfaces incompatíveis.
             http://www.devmedia.com.br/padrao-de-projeto-adapter-em-java/26467
      Bridge - Desacopla a interface da implementação ; Ocultação de detalhes de implementação dos clientes.
-     Composite - lida com uma estrutura de elementos agrupada hierarquicamente (não como meras coleções).
+     Composite - lida com uma estrutura de elementos agrupada hierarquicamente 
+     (não como meras coleções).
      Decorator - Atribui responsabilidade adicionais a um objeto dinamicamente. O Decorator fornece uma alternativa flexível a subclasses para a extensão da funcionalidade.
      Facade - Interface unificada para um subsistema ; Torna o subsistema mais fácil de usar.
      Flyweight - Usa compartilhamento para dar suporte a vários objetos de forma eficiente.
