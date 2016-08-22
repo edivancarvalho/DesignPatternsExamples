@@ -2,6 +2,11 @@ package decoratorSolution1;
 
 abstract class Janela {
 
-	public abstract void draw();
+	
+
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

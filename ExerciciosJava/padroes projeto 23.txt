@@ -28,8 +28,10 @@ https://github.com/MarcosX/Padr-es-de-Projeto/tree/master/src/br/padroes
     Command - Associa uma ação a diferentes objetos através de uma interface conhecida.
         http://www.devmedia.com.br/padrao-de-projeto-command-em-java/26456
     Interpreter - Usado para ajudar uma aplicação a entender uma declaração de linguagem natural e executar a funcionalidade da declaração.
-    Iterator - Provê uma forma de percorrermos os elementos de uma coleção sem violar o seu encapsulamento.
+    Iterator - Provê uma forma de percorrermos os elementos de uma coleção sem violar 
+               o seu encapsulamento.
     Mediator - Cria um objeto que age como um  mediador controlando a interação entre um conjunto de objetos.
+   
     Memento - Torna possível salvar o estado de um objeto de modo que o mesmo possa ser restaurado.
     Observer - Define uma relação de dependência 1:N de forma que quando um certo objeto (assunto) tem seu estado modificado os demais (observadores) são notificados; Possibilita baixo acoplamento entre os objetos observadores e o assunto.
     State - Permite objeto alterar seu comportamento quando estado interno muda.
