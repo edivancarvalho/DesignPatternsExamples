@@ -1,6 +1,6 @@
 package mediatorSolution1;
 
-public class MainmediatorSolution1 {
+public class MainMediatorSolution1 {
 
 	public static void main(String[] args) {
 		MensagemMediator mediador = new MensagemMediator();
